@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(230, 197, 90);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin:0;
+}
+img{
+    z-index: 10;
+    border-radius: 50%;
+    border: 10px solid rgba(128, 128, 128, 0.461);
+    cursor: pointer;
+    
+}
+.animate{
+    animation: scale 1s ;
+}
+
+img:hover{
+    border: 10px solid rgb(38, 75, 38);
+}
+img:active{
+    border: 10px solid white;
+}
+.main{
+    margin-top: 50px;
+flex-grow: 2;
+}
+.head-container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.quote-container{
+    width: 90vw;
+    padding: 0 5vw;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(38, 75, 38);
+}
+p{
+    font-size: 20px;
+    color: rgb(230, 197, 90);
+  
+}
+
+.hey{
+    color:rgb(38, 75, 38);
+}
+
+
+.footer{
+    flex: none;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+    fill:rgb(38, 75, 38);
+}
+.logo:hover{
+fill: white;
+}
+a{
+    color: rgb(38, 75, 38);
+    text-decoration: none;
+}
+span{
+color: rgb(38, 75, 38);
+}
+a:hover{
+    color: white;
+   
+
+}
+.language{
+    font-size: 30px;
+    color: rgb(38, 75, 38);
+}
+
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+
+  border: 2px solid #999;
+  transition: 0.2s all linear;
+  outline: none;
+  margin-right: 5px;
+
+  position: relative;
+  top: 4px;
+}
+.checked {
+    border: 5px solid rgb(38, 75, 38);
+  }
+
+
+  @keyframes scale {
+    0% {
+      transform: scaleX(0) scaleY(0);
+      }
+    100% {
+      transform: scaleX(1) scaleY(1);
+      }
+  }
