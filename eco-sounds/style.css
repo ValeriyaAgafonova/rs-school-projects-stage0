@@ -1,0 +1,85 @@
+p{
+    margin: 0;
+    padding: 0;
+}
+a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(210, 222, 45);
+    transition: 1s;
+}
+body{
+    background-image: url(./assets/img/forest.jpg);
+    background-size: cover;
+    font-size: 30px;
+    color: white;
+    font-style: italic;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header,
+.footer{
+    flex:none;
+    background-color: rgba(0, 0, 0, 0.397);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+.bird-button{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  position: relative;
+}
+svg{
+    fill: white;
+}
+.bird-button:hover{
+    cursor: pointer;
+   
+}
+.bird-button:hover svg{
+    fill: rgb(210, 222, 45);
+    transition: 1s;
+}
+.bird-button:hover .bird-name{ 
+    color:rgb(217, 228, 53);
+    transition: 1s;
+
+  
+}
+.main{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.play,
+.pause{
+    fill: white;
+    cursor: pointer;
+}
+.play:hover,
+.pause:hover{
+    fill:rgb(210, 222, 45);
+}
+.display{
+    display: none;
+    color: rgb(122, 207, 228)
+}
+.active{
+    color: rgb(122, 207, 228);
+    fill: rgb(122, 207, 228);
+}
+.logo:hover{
+    fill: rgb(210, 222, 45);
+    transition: 1s;
+}
