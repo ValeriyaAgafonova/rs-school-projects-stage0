@@ -1,0 +1,23 @@
+@media (max-width: 856px) { 
+.main{
+    flex-direction: column-reverse;
+    
+}
+.main__left-side,
+.main__right-side{
+    width: 100%;
+}
+.main__right-side h2{
+    width: 50%;
+}
+}
+@media (max-width: 500px){
+
+.education__tables_table-time p{
+    font-size: 12px;
+}
+.education__tables span{
+    font-size: 12px;
+}
+
+}

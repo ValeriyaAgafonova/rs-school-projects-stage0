@@ -1,0 +1,196 @@
+/*обнуляем отступы*/
+img,
+div,
+section,
+h1,
+p{
+    margin: 0;
+    padding: 0;
+}
+/* основной контейнер*/
+.container{
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+/*хедер и имя*/
+.header{
+   background-image: linear-gradient(orange 50%, white 50%);
+   height: 300px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.header__photo{
+    border-radius: 50%;
+    border: 7px solid black;
+}
+
+.name{
+   background-color: black;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.name__spec{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 100;
+}
+/*выравнивание основных колонок*/
+.main{
+    display: flex;
+}
+
+.main__left-side,
+.main__right-side{
+    justify-content:start;
+}
+
+.main__left-side{
+    width: 65%;
+    line-height: 30px;
+    padding-right: 20px;
+}
+
+.main__right-side{
+    width: 35%;
+    background-color: orange;
+    font-size: 17px; 
+}
+
+.main__left-side_information-section,
+.main__right-side_lang-list{
+    display: flex;
+}
+
+.main__right-side,
+.main__left-side_information-section,
+.main__left-side_information-section_summary,
+.main__left-side_information-section_education{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+
+h2{
+    text-transform: uppercase;
+    padding: 10px;
+    
+}
+.main__right-side h2{
+    color: white;
+    background-color: black;
+    width: 75%;
+    border-radius: 0 20px 20px 0;
+    
+}
+.main__left-side h2{
+    color: white;
+    background-color: orange;
+    width: 50%;
+    border-radius: 0 20px 20px 0;
+}
+.education__tables_table-time_circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: orange;
+    margin: 0 10px;
+}
+
+.skills-list_item_circle,
+.lang-list_circle{
+background-color: white;
+width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 5px;
+    transition: all 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+svg,
+.github{
+    fill: black;
+    width: 25px;
+    height: 25px;
+    margin: 5px 0;
+    
+}
+.main__right-side_contact-list,
+.main__right-side_skills-list,
+.main__right-side_lang-list{
+    margin-left: 20px;
+}
+
+.main__right-side_contact-list{
+    padding-bottom: 50px;
+}
+
+.main__right-side_skills-list_item,
+.education__tables_table-time{
+    display: flex;
+    margin: 10px 0;
+}
+
+.education__tables{
+    display: grid;
+    grid-template-columns: 35% 65%;
+   border: 1px solid black;
+   margin-bottom: 10px;
+}
+
+span{
+    padding-top:10px;
+}
+
+.main__right-side_skills-list p{
+    text-transform: uppercase;
+}
+a:hover svg{
+    fill: white;
+}
+.main__right-side_contact-list p{
+    font-size: 14px;
+}
+.main__left-side_projects a{
+    border: 2px solid orange;
+    padding: 5px;
+    color: black;
+    background-color: rgba(255, 166, 0, 0.212);
+    text-decoration: none;
+    font-weight: 600;
+}
+.main__left-side_projects{
+    margin-bottom: 20px;
+}
+.main__left-side_projects a:hover,
+span a:hover{
+    background-color: orange;
+    color: white;
+}
+
+span a{
+    border: 1px solid orange;
+    padding: 3px;
+    color: black;
+    background-color: rgba(255, 166, 0, 0.212);
+    text-decoration: none;
+    font-weight: bolder;
+}
