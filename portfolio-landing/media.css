@@ -1,0 +1,219 @@
+@media (max-width: 1439px){
+    .price-list{
+        justify-content: center;
+        row-gap: 20px;
+    }
+    .skills-list{
+        justify-content: center;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+.burger{
+    display: block;
+    position: absolute;
+    right: 60px;
+    top: 20px;
+    z-index: 110;
+   
+}
+.burger-x{
+    position: fixed;
+}
+.right-side{
+    margin-right: 120px;
+}
+.nav-item{
+    display:none;
+}
+    .main-container{
+        padding:0;
+    }
+.logo-image{
+    margin-left: 60px;
+}
+.hero{
+    padding-top: 78px;
+    padding-bottom: 152px;
+}
+.h1-bold{
+    font-family: 'Merriweather-Regular';
+    src: url(./assets/fonts/Merriweather/Merriweather-Regular.ttf);
+    font-weight: 400;
+}
+.hero,
+header{
+    background-image: url(./assets/img/bg.jpg) ;
+}
+h1{
+    font-size: 32px;
+    line-height: 64px;
+}
+.intro{
+    margin-left: 60px;
+}
+.header-hero-light{
+    background-image: url('./assets/img/light-bg.jpg');
+     background-repeat: no-repeat;
+    background-position: center 0;
+}
+.hero-light{
+    background-image: url('./assets/img/light-bg.jpg');
+    background-position: center -90px;
+  background-repeat: no-repeat;
+}
+
+
+.introduction{
+    line-height: 24px;
+    width: 390px;
+}
+.introduction{
+    margin-top: 20px;
+}
+.hire-button{
+margin-top: 60px;
+}
+h2{
+    line-height: 40px;
+    font-size: 32px;
+}
+.h2-lines{
+    background-image: linear-gradient(to top, #000 99px, #bdae82 99px, #bdae82 101px, #000 101px);
+    width: 48%;
+}
+.media-lines{
+    background-image: linear-gradient(to top, white 99px, black 99px, black 101px, white 101px);
+    width: 48%;
+}
+    footer{
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 15px;
+row-gap: 20px;
+    }
+    .contacts{
+        background-image: url(./assets/img/contacts-small.jpg);
+        background-size: cover;
+        align-items: center;
+    }
+    .contacts-light{
+        background: url('./assets/img/light-contacts.jpg');
+    }
+    .price-list{
+        justify-content: center;
+        row-gap: 50px;
+    }
+    .play-svg{
+        width: 75px;
+        height: 75px;
+    }
+    .video-player{
+        overflow-x: hidden;
+    }
+    .video-img{
+        width: 108%;
+        margin-top: 10px;
+    }
+    
+.play-svg{
+    width: 65px;
+    height: 65px;
+}
+    .skills-list{
+        justify-content: center;
+       column-gap: 25px;
+       row-gap: 75px;
+       margin-bottom: 65px;
+    }
+
+    h4{
+        margin: 35px 0 20px 0;
+    }
+    .spec{
+        line-height: 22px;
+    }
+   
+    .seasons-buttons{
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+column-gap: 4px;
+row-gap: 5px;
+    }
+
+.price-list{
+    margin-top: 10px;
+
+}
+    .price-item{
+        width: 418px;
+        border: 3px solid var(--gold-color);
+    }
+    .price{
+        padding-bottom: 80px;
+    }
+    .contacts{
+        padding-top: 75px;
+        padding-bottom: 110px;
+    }
+    .contacts h2{
+        margin:0 auto;
+    }
+    .contact-container{
+        padding-right: 0;
+    }
+    .email{
+        margin-top: 50px;
+    }
+    .send{
+        align-self: center;
+    }
+    textarea{
+        height: 100px;
+    }
+   .social-list{
+       margin-top: 5px;
+   }
+   
+  }
+
+  @media (max-width: 460px) {
+.introduction{
+    width: 250px;
+}
+.logo-image{
+    margin-left: 0;
+}
+.burger{
+    right: 20px;
+}
+.right-side{
+    margin-right: 80px;
+}
+.seasons-buttons{ 
+    grid-template-columns: 100%;
+}
+.season-photo{
+    width: 95%;
+}
+.price-item{
+    width: 95%;
+}
+input,
+textarea{
+width: 95%;
+}
+  }
+
+
+  @media (max-width: 620px) {
+
+  .burger-menu{
+    width: 100%;
+    height: 100%;
+   
+}
+  }
